@@ -196,6 +196,24 @@ footer {
   text-overflow: ellipsis;
 }
 
+/* Remove button next to each participant */
+.participant-remove {
+  background: #fff;
+  border: 1px solid rgba(198, 40, 40, 0.15);
+  color: #c62828;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 8px;
+  margin-left: 6px;
+  line-height: 1;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.participant-remove:hover {
+  background: rgba(198, 40, 40, 0.06);
+}
+
 .no-participants {
   font-style: italic;
   color: #666;
